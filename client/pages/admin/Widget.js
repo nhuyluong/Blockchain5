@@ -182,7 +182,7 @@ const Widget = ({ type }) => {
     <div className=" text-white flex justify-between flex-1 rounded h-44 w-80 bg-black box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47); pl-1 pr-1 pb-1 -mt-96  ">
       <div className="flex flex-col justify-between h-44 w-full ">
         <span className="font-bold text-sm text-zinc-400">{data.title}</span>
-        <span className="text-3xl font-light">
+        <span className=" ">
           {data.amount} {data.isMoney && "ETH"}
         </span>
         <span className="w-max text-xs border-b text-white m-1">

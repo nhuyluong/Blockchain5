@@ -7,7 +7,7 @@ import ShowerIcon from "@mui/icons-material/Shower";
 export default function End() {
   return (
     <div className="max-width w-full pr-4 pl-4 mr-auto ml-auto pt-14">
-      <div className="flex flex-wrap -mr-4 -ml-4 items-center">
+      {/* <div className="flex flex-wrap -mr-4 -ml-4 items-center">
         <div className="col-lg-4">
           <ul className="pl-0 list-none">
             <li>
@@ -103,7 +103,7 @@ export default function End() {
             fly into your mouth.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -9,7 +9,7 @@ export default function Footer() {
         className="h-24 m-auto
           "
       />
-      <p className="text-center pb-3">Copyright © 2022 QuanThinhBDS, Inc.</p>
+      <p className="text-center pb-3"> </p>
     </div>
   );
 }

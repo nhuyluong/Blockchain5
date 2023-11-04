@@ -66,7 +66,7 @@ function MobileNav({ open, setOpen }) {
         >
           My Team
         </a>
-        <a
+        {/* <a
           className="text-xl font-normal my-4"
           href="/whitepaper1"
           onClick={() =>
@@ -76,7 +76,7 @@ function MobileNav({ open, setOpen }) {
           }
         >
           White paper 1.1
-        </a>
+        </a> */}
         <a
           className="text-xl font-normal my-4"
           href="/login"
@@ -245,13 +245,13 @@ export default function Navbar() {
                 : "pl-3"
             }
           >
-            <a
+            {/* <a
               href="https://drive.google.com/file/d/1rv5wK3a_aPJf4na_2bSFwIFLDvj5iRou/view"
               target="_blank"
               rel="noopener noreferrer"
             >
               White paper 1.1
-            </a>
+            </a> */}
           </div>
           {web3Provider == null || address === [] ? (
             <button

@@ -135,7 +135,7 @@ export default function Home() {
       <div className="pb-16 bg-slate-50 w-full">
         <End />
       </div>
-      <section className=" bg-gray-100 pt-10 ">
+      {/* <section className=" bg-gray-100 pt-10 ">
         <div className="flex justify-center max-width w-full pr-4 pl-4 mr-auto ml-auto">
           <div className="flex flex-wrap -mr-4 -ml-4">
             <div className="col-lg-12 text-center">
@@ -145,11 +145,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className="w-full">
         <div className="flex justify-center w-full pr-4 pl-4 mr-auto ml-auto pb-10 bg-gray-100">
           <div className="flex justify-center flex-wrap w-full -mr-4 -ml-4 ">
-            <img
+            {/* <img
               className="h-72 w-64 vertical-align border-none"
               src="https://preview.colorlib.com/theme/homes/img/room-pic/x1.jpg.pagespeed.ic.8GLbaMIWgs.webp"
               alt=""
@@ -183,7 +183,7 @@ export default function Home() {
               alt=""
               data-pagespeed-url-hash="2207268107"
               onload="pagespeed.CriticalImages.checkImageForCriticality(this);"
-            />
+            /> */}
           </div>
         </div>
       </div>
